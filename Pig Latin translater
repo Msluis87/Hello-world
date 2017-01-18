@@ -1,0 +1,9 @@
+print "Welkom to the Pig Latin Translator!"  #Introduction
+word = raw_input("Please enter a English word to translate:") #Question
+print word
+
+print "The Pig Latin translation for %s is:" %(word)
+ad = 'ay'
+length =len(word)
+translation = word[-(length-1):] + word[:1] + ad 
+print translation.lower()
