@@ -1,0 +1,6 @@
+def root(n):    \\Defineer een local variable met functie n
+  root2 = n ** 0.5      \\ defineer tweede variabel
+  print " the root of %d equals to %d" % (n, root2)
+
+root(8)
+root
